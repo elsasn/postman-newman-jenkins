@@ -7,7 +7,7 @@
   	}
   }
   "scripts": {
-    "api-tests-production": "newman run tests/API-Presence.postman_collection2.json -e dev.postman_environment"
+    "api-tests-production": "newman run tests/API-Presence.postman_collection2.json --reportes junit --reporter-junit-export newman.xml"
   },
   "author": "BSI UII",
   "dependencies": {
