@@ -1,0 +1,16 @@
+{
+  "name": "postman-newman-jenkins",
+  "version": "1.0.0",
+  "description": "Projects for storing Postman Test",
+  "directories" : {
+  	"tests": "tests"
+  	}
+  }
+  "scripts": {
+    "api-tests-production": "newman run tests/API-Presence.postman_collection2.json -e dev.postman_environment"
+  },
+  "author": "BSI UII",
+  "dependencies": {
+    "newman": "^5.1.2"
+  }
+}
